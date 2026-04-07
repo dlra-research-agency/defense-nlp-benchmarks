@@ -1,0 +1,48 @@
+task:
+  name: maritime-text-analysis
+  description: Analyze maritime-domain texts for vessel identification, anomaly description, and threat assessment generation
+  version: "1.0"
+
+subtasks:
+  - name: vessel-identification
+    type: classification
+    description: Identify and classify vessel references from unstructured maritime reports
+  - name: anomaly-description
+    type: classification
+    description: Detect and categorize anomalous maritime behavior from textual reports
+  - name: threat-assessment-generation
+    type: generation
+    description: Generate structured threat assessment summaries from raw maritime intelligence
+
+input_types:
+  - ais-messages
+  - patrol-reports
+  - sigint-intercepts
+
+anomaly_labels:
+  - ais-spoofing
+  - dark-vessel
+  - route-deviation
+  - unauthorized-transshipment
+  - speed-anomaly
+  - zone-violation
+  - normal
+
+metrics:
+  classification:
+    primary: f1-weighted
+    secondary:
+      - precision
+      - recall
+      - accuracy
+  generation:
+    primary: bleu
+    secondary:
+      - rouge-l
+      - human-relevance
+
+evaluation:
+  n_samples: 500
+  cross_validation: 5-fold
+  stratified: true
+  stratify_by: subtask

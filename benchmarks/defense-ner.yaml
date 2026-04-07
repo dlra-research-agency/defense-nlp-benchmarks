@@ -1,0 +1,32 @@
+task:
+  name: defense-named-entity-recognition
+  description: Extract defense-specific named entities from unstructured text
+  version: "1.0"
+
+entity_types:
+  - military-unit
+  - weapon-system
+  - location
+  - person
+  - organization
+  - operation-name
+  - date-time-group
+  - classification-level
+
+annotation:
+  scheme: IOB2
+  span_matching: strict
+  overlap_policy: reject
+
+metrics:
+  primary: f1-entity-level
+  secondary:
+    - precision
+    - recall
+    - f1-token-level
+
+evaluation:
+  n_samples: 500
+  cross_validation: 5-fold
+  stratified: true
+  stratify_by: entity_type
