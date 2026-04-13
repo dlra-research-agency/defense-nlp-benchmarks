@@ -93,7 +93,7 @@ If you use this benchmark in your research, please cite:
   title={Defense NLP Benchmarks: Standardized Evaluation for Defense-Domain Natural Language Processing},
   author={Tan, Shu Ling and Goh, Brandon Zhi Hao and Ong, Cheryl Hui Wen and Lim, Wei Jie},
   year={2024},
-  publisher={DLRA (Defence Language Research Agency)},
+  publisher={DLRA (Defense Language Research Agency)},
   url={https://github.com/dlra-research/defense-nlp-benchmarks},
   version={1.0}
 }
