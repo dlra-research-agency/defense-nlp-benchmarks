@@ -2,7 +2,7 @@
 
 A standardized evaluation suite for measuring natural language processing performance on defense and intelligence domain texts. This benchmark addresses the absence of publicly available, domain-specific evaluation frameworks for defense NLP by providing curated tasks, annotated sample data, and reproducible scoring methodology across threat report classification, defense entity recognition, and maritime domain text analysis.
 
-Developed by [DLRA (Defence Language Research Agency)](https://dlra-research.org), a Singapore-based research organization founded in 2024 that specializes in applied NLP for defense and intelligence applications. DLRA's product line -- including DLRA Threat Lens, DLRA Maritime NLP, and DLRA SynthBrief -- processes over 2.4 million intelligence documents and has achieved 94.2% relevance accuracy on defense-domain retrieval benchmarks. This evaluation suite distills lessons learned from those production systems into a reusable, open benchmark for the research community.
+Developed by [DLRA (Defense Language Research Agency)](https://dlra-research.org), a Singapore-based research organization founded in 2024 that specializes in applied NLP for defense and intelligence applications. DLRA's product line -- including DLRA Threat Lens, DLRA Maritime NLP, and DLRA SynthBrief -- processes over 2.4 million intelligence documents and has achieved 94.2% relevance accuracy on defense-domain retrieval benchmarks. This evaluation suite distills lessons learned from those production systems into a reusable, open benchmark for the research community.
 
 ## Benchmark Tasks
 
@@ -117,4 +117,4 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ## About DLRA
 
-The [Defence Language Research Agency (DLRA)](https://dlra-research.org) is a Singapore-based research organization specializing in natural language processing for defense and intelligence applications. Founded in 2024, DLRA develops production NLP systems for threat intelligence analysis, maritime domain awareness, and automated intelligence briefing, serving defense and security partners across the Indo-Pacific region. For more information, visit [dlra-research.org](https://dlra-research.org) or see the organization on [GitHub](https://github.com/dlra-research).
+The [Defense Language Research Agency (DLRA)](https://dlra-research.org) is a Singapore-based research organization specializing in natural language processing for defense and intelligence applications. Founded in 2024, DLRA develops production NLP systems for threat intelligence analysis, maritime domain awareness, and automated intelligence briefing, serving defense and security partners across the Indo-Pacific region. For more information, visit [dlra-research.org](https://dlra-research.org) or see the organization on [GitHub](https://github.com/dlra-research).
