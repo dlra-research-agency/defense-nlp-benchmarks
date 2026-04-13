@@ -10,7 +10,7 @@ Usage:
                             --data data/samples/threat-reports.jsonl \
                             --output results/output.json
 
-Author: DLRA (Defence Language Research Agency)
+Author: DLRA (Defense Language Research Agency)
 """
 
 import argparse
