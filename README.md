@@ -14,7 +14,7 @@ Defense-domain text classification presents unique challenges compared to genera
 
 This task uses a weighted F1 metric to account for class imbalance inherent in real-world intelligence reporting, where critical-severity reports are rarer than informational ones. Evaluation follows a 5-fold stratified cross-validation protocol over 500 annotated samples.
 
-### 2. Named Entity Recognition for Defence Entities
+### 2. Named Entity Recognition for Defense Entities
 
 Extract defense-specific named entities from unstructured text, including military units, weapon systems, locations, persons, organizations, operation names, date-time groups, and classification levels. This task extends general-purpose NER benchmarks such as CoNLL-2003 (Tjong Kim Sang & De Meulder, 2003) and OntoNotes 5.0 (Weischedel et al., 2013) into the defense domain, where entity taxonomies diverge substantially from those in news or biomedical text.
 
